@@ -9,11 +9,13 @@
     "lint": "eslint . --fix",
     "preview": "vite preview",
     "format": "prettier . --ignore-path .gitignore --write",
-    "fix-style": "npm run format && npm run lint",
+    "fix-style": "npm run format & npm run lint",
     "prepare": "husky install"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
+    "classnames": "^2.5.1",
+    "lucide-react": "^0.554.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
