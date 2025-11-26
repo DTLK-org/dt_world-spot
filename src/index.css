@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+@plugin "daisyui";
+
+@theme {
+  --color-white: #fff;
+
+  /* not for dark theme */
+  --color-sun: #ff6633;
+  --color-moon: #e6e6fa;
+}
+
+html.dark {
+  --color-white: #000;
+}
